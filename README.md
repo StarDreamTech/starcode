@@ -1,25 +1,22 @@
+<p align="center">
+  <a href=".github/assets/starcode.svg">
+    <img src=".github/assets/starcode.svg" width="128" height="128" alt="星码 StarCode Logo" />
+  </a>
+</p>
+
 # 星码 StarCode
 
 星梦科技基于 [OpenCode](https://github.com/anomalyco/opencode) fork 改造的开源 AI Agent 客户端。
 
 - 仓库：[StarDreamTech/starcode](https://github.com/StarDreamTech/starcode)，公开 fork。
 - 初始上游：`anomalyco/opencode` 的 `dev` 分支，基线提交 `cbe71595e1f370ff91b3081872b96bbe56519c41`。
-- 当前状态：完成 fork 初始化；品牌改造、产品差异化与独立发行尚未完成。
+- 当前状态：完成 fork 初始化、独立 Logo 与 README 品牌展示；客户端内品牌改造、产品差异化与独立发行尚未完成。
 - 保留上游 Git 历史、MIT 许可证与版权声明；后续优先复用上游能力，并持续同步更新。
 
 以下保留上游 README，所列发行渠道属于 OpenCode 上游。
 
 ---
 
-<p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset=".github/assets/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset=".github/assets/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src=".github/assets/logo-ornate-light.svg" alt="OpenCode logo">
-    </picture>
-  </a>
-</p>
 <p align="center">The open source AI coding agent.</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>

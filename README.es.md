@@ -1,12 +1,15 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset=".github/assets/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset=".github/assets/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src=".github/assets/logo-ornate-light.svg" alt="OpenCode logo">
-    </picture>
+  <a href=".github/assets/starcode.svg">
+    <img src=".github/assets/starcode.svg" width="128" height="128" alt="星码 StarCode Logo" />
   </a>
 </p>
+
+# 星码 StarCode
+
+> StarCode is a StarDreamTech fork of [OpenCode](https://github.com/anomalyco/opencode). The upstream reference below retains OpenCode installation and release links; StarCode does not yet have an independent release.
+
+---
+
 <p align="center">El agente de programación con IA de código abierto.</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>

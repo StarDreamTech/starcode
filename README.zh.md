@@ -1,12 +1,15 @@
 <p align="center">
-  <a href="https://opencode.ai">
-    <picture>
-      <source srcset=".github/assets/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset=".github/assets/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src=".github/assets/logo-ornate-light.svg" alt="OpenCode logo">
-    </picture>
+  <a href=".github/assets/starcode.svg">
+    <img src=".github/assets/starcode.svg" width="128" height="128" alt="星码 StarCode Logo" />
   </a>
 </p>
+
+# 星码 StarCode
+
+> 星码是星梦科技基于 [OpenCode](https://github.com/anomalyco/opencode) 改造的开源项目。以下保留上游参考文档，安装及发行链接仍属于 OpenCode；星码尚未独立发行。
+
+---
+
 <p align="center">开源的 AI Coding Agent。</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
