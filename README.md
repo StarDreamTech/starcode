@@ -1,3 +1,16 @@
+# 星码 StarCode
+
+星梦科技基于 [OpenCode](https://github.com/anomalyco/opencode) fork 改造的开源 AI Agent 客户端。
+
+- 仓库：[StarDreamTech/starcode](https://github.com/StarDreamTech/starcode)，公开 fork。
+- 初始上游：`anomalyco/opencode` 的 `dev` 分支，基线提交 `cbe71595e1f370ff91b3081872b96bbe56519c41`。
+- 当前状态：完成 fork 初始化；品牌改造、产品差异化与独立发行尚未完成。
+- 保留上游 Git 历史、MIT 许可证与版权声明；后续优先复用上游能力，并持续同步更新。
+
+以下保留上游 README，所列发行渠道属于 OpenCode 上游。
+
+---
+
 <p align="center">
   <a href="https://opencode.ai">
     <picture>
