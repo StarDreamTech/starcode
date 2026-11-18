@@ -6,6 +6,8 @@
 
 # 星码 StarCode
 
+[简体中文](README.md) | [English](README.en.md)
+
 星梦科技基于 [OpenCode](https://github.com/anomalyco/opencode) fork 改造的开源 AI Agent 客户端。
 
 - 仓库：[StarDreamTech/starcode](https://github.com/StarDreamTech/starcode)，公开 fork。
@@ -17,7 +19,7 @@
 
 ---
 
-<p align="center">The open source AI coding agent.</p>
+<p align="center">开源的 AI Coding Agent。</p>
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/@opencode/cli"><img alt="npm" src="https://img.shields.io/npm/v/@opencode/cli?style=flat-square" /></a>
@@ -25,8 +27,8 @@
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
+  <a href="README.en.md">English</a> |
+  <a href="README.md">简体中文</a> |
   <a href="README.zht.md">繁體中文</a> |
   <a href="README.ko.md">한국어</a> |
   <a href="README.de.md">Deutsch</a> |
@@ -53,71 +55,70 @@
 
 ---
 
-### Installation
+### 安装
 
 ```bash
-# YOLO
+# 直接安装 (YOLO)
 curl -fsSL https://opencode.ai/v2/install | bash
 
-# Package managers
-npm i -g @opencode/cli@latest      # or bun/pnpm/yarn
-brew install anomalyco/tap/opencode-v2 # macOS and Linux (recommended, always up to date)
-brew install opencode              # macOS and Linux (official brew formula, updated less)
+# 软件包管理器
+npm i -g @opencode/cli@latest      # 也可使用 bun/pnpm/yarn
+brew install anomalyco/tap/opencode-v2 # macOS 和 Linux（推荐，始终保持最新）
+brew install opencode              # macOS 和 Linux（官方 brew formula，更新频率较低）
 sudo pacman -S opencode            # Arch Linux (Stable)
 paru -S opencode-beta              # Arch Linux (Latest from AUR)
-mise use -g opencode               # Any OS
+mise use -g opencode               # 任意系统
 nix run github:anomalyco/opencode  # Nix
 ```
 
 > [!TIP]
-> Remove versions older than 0.1.x before installing.
+> 安装前请先移除 0.1.x 之前的旧版本。
 
-### Desktop App (BETA)
+### 桌面应用程序 (BETA)
 
-OpenCode is also available as a desktop application. Download it from [opencode.ai/download](https://opencode.ai/download).
+OpenCode 也提供桌面版应用。可从 [opencode.ai/download](https://opencode.ai/download) 下载。
 
-| Platform              | Download                           |
+| 平台                  | 下载文件                           |
 | --------------------- | ---------------------------------- |
 | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg`   |
 | macOS (Intel)         | `opencode-desktop-mac-x64.dmg`     |
 | Windows               | `opencode-desktop-win-x64.exe`     |
-| Linux                 | `.deb`, `.rpm`, or `.AppImage`     |
+| Linux                 | `.deb`、`.rpm` 或 AppImage         |
 
 ```bash
-# macOS (Homebrew)
+# macOS (Homebrew Cask)
 brew install --cask opencode-desktop
 ```
 
-#### Installation Directory
+#### 安装目录
 
-The install script installs OpenCode to `$HOME/.opencode/bin`.
+安装脚本将 OpenCode 安装到 `$HOME/.opencode/bin`。
 
 ### Agents
 
-OpenCode includes two built-in agents you can switch between with the `Tab` key.
+OpenCode 内置两种 Agent，可用 `Tab` 键快速切换：
 
-- **build** - Default, full-access agent for development work
-- **plan** - Read-only agent for analysis and code exploration
-  - Denies file edits by default
-  - Asks permission before running bash commands
-  - Ideal for exploring unfamiliar codebases or planning changes
+- **build** - 默认模式，具备完整权限，适合开发工作
+- **plan** - 只读模式，适合代码分析与探索
+  - 默认拒绝修改文件
+  - 运行 bash 命令前会询问
+  - 便于探索未知代码库或规划改动
 
-Also included is a **general** subagent for complex searches and multistep tasks.
-This is used internally and can be invoked using `@general` in messages.
+另外还包含一个 **general** 子 Agent，用于复杂搜索和多步任务，内部使用，也可在消息中输入 `@general` 调用。
 
-Learn more about [agents](https://opencode.ai/docs/agents).
+了解更多 [Agents](https://opencode.ai/docs/agents) 相关信息。
 
-### Documentation
+### 文档
 
-For more info on how to configure OpenCode, [**head over to our docs**](https://opencode.ai/docs).
+更多配置说明请查看我们的 [**官方文档**](https://opencode.ai/docs)。
 
-### Contributing
+### 参与贡献
 
-If you're interested in contributing to OpenCode, please read our [contributing docs](./CONTRIBUTING.md) before submitting a pull request.
+如有兴趣贡献代码，请在提交 PR 前阅读 [贡献指南 (Contributing Docs)](./CONTRIBUTING.md)。
 
-### Building on OpenCode
+### 基于 OpenCode 进行开发
 
-If you are working on a project that's related to OpenCode and is using "opencode" as part of its name, for example "opencode-dashboard" or "opencode-mobile", please add a note to your README to clarify that it is not built by the OpenCode team and is not affiliated with us in any way.
+如果你在项目名中使用了 “opencode”（如 “opencode-dashboard” 或 “opencode-mobile”），请在 README 里注明该项目不是 OpenCode 团队官方开发，且不存在隶属关系。
 
 ---
 
